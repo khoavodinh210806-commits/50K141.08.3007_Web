@@ -1,0 +1,12 @@
+node_modules
+build
+.env
+.env.*
+!/.env.example
+.git
+coverage
+logs
+keys
+PTTKHT_Duyen
+template_reference
+*.env

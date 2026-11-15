@@ -1,0 +1,1352 @@
+{
+  "branches": [
+    {
+      "id": "hc",
+      "name": "Trình - Hải Châu"
+    },
+    {
+      "id": "st",
+      "name": "Trình - Sơn Trà"
+    },
+    {
+      "id": "tk",
+      "name": "Trình - Thanh Khê"
+    },
+    {
+      "id": "nhs",
+      "name": "Trình - Ngũ Hành Sơn"
+    },
+    {
+      "id": "lc",
+      "name": "Trình - Liên Chiểu"
+    }
+  ],
+  "materials": [
+    {
+      "id": "NVL-001",
+      "description": "Hạt rang vừa, bảo quản kín, tránh ẩm.",
+      "name": "Cà phê hạt Arabica",
+      "unit": "kg",
+      "minimum": 20,
+      "allowance": 0.8,
+      "supplier": "Cà phê Tây Nguyên",
+      "price": 280000,
+      "active": true
+    },
+    {
+      "id": "NVL-002",
+      "name": "Cà phê hạt Robusta",
+      "unit": "kg",
+      "minimum": 15,
+      "allowance": 0.6,
+      "supplier": "Cà phê Tây Nguyên",
+      "price": 180000,
+      "active": true
+    },
+    {
+      "id": "NVL-003",
+      "name": "Bột cacao",
+      "unit": "kg",
+      "minimum": 5,
+      "allowance": 0.3,
+      "supplier": "Cà phê Tây Nguyên",
+      "price": 150000,
+      "active": true
+    },
+    {
+      "id": "NVL-004",
+      "name": "Sữa tươi không đường",
+      "unit": "ml",
+      "minimum": 20000,
+      "allowance": 1200,
+      "supplier": "Vinamilk - Đà Nẵng",
+      "price": 0.8,
+      "active": true
+    },
+    {
+      "id": "NVL-005",
+      "name": "Sữa đặc",
+      "unit": "lon",
+      "minimum": 10,
+      "allowance": 0.5,
+      "supplier": "Vinamilk - Đà Nẵng",
+      "price": 25000,
+      "active": true
+    },
+    {
+      "id": "NVL-006",
+      "name": "Siro đào",
+      "unit": "ml",
+      "minimum": 0,
+      "allowance": 100,
+      "supplier": "Đà Nẵng Food",
+      "price": 0.4,
+      "active": true
+    }
+  ],
+  "recipes": [
+    {
+      "id": "MON-001",
+      "name": "CÀ PHÊ SỮA MÁY",
+      "category": "Espresso",
+      "version": 2,
+      "note": "Hòa tan sữa đặc trước khi thêm đá.",
+      "active": true,
+      "lines": [
+        {
+          "materialId": "NVL-002",
+          "quantity": 0.02
+        },
+        {
+          "materialId": "NVL-005",
+          "quantity": 0.05
+        }
+      ],
+      "history": [
+        {
+          "version": 1,
+          "date": "2026-09-01T09:00:00+07:00",
+          "approver": "Bùi Đức Mạnh",
+          "note": "Công thức khởi tạo",
+          "lines": [
+            {
+              "materialId": "NVL-002",
+              "quantity": 0.015
+            },
+            {
+              "materialId": "NVL-005",
+              "quantity": 0.05
+            }
+          ]
+        },
+        {
+          "version": 2,
+          "date": "2026-10-20T10:15:00+07:00",
+          "approver": "Bùi Đức Mạnh",
+          "note": "Chuẩn hóa Robusta 0,020 kg",
+          "lines": [
+            {
+              "materialId": "NVL-002",
+              "quantity": 0.02
+            },
+            {
+              "materialId": "NVL-005",
+              "quantity": 0.05
+            }
+          ]
+        }
+      ],
+      "size": "M · 350 ml"
+    },
+    {
+      "id": "MON-002",
+      "name": "CÀ PHÊ ĐEN MÁY",
+      "category": "Espresso",
+      "version": 2,
+      "note": "Định lượng cho một ly. Dữ liệu minh họa.",
+      "active": true,
+      "lines": [
+        {
+          "materialId": "NVL-002",
+          "quantity": 0.015
+        },
+        {
+          "materialId": "NVL-005",
+          "quantity": 0.1
+        }
+      ],
+      "history": [
+        {
+          "version": 2,
+          "date": "2026-11-03T09:10:00+07:00",
+          "approver": "Bùi Đức Mạnh",
+          "lines": [
+            {
+              "materialId": "NVL-002",
+              "quantity": 0.015
+            },
+            {
+              "materialId": "NVL-005",
+              "quantity": 0.1
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "MON-003",
+      "name": "LATTE/CAPPUCCINO",
+      "category": "Espresso",
+      "version": 2,
+      "note": "Định lượng cho một ly. Dữ liệu minh họa.",
+      "active": true,
+      "lines": [
+        {
+          "materialId": "NVL-002",
+          "quantity": 0.015
+        },
+        {
+          "materialId": "NVL-005",
+          "quantity": 0.1
+        }
+      ],
+      "history": [
+        {
+          "version": 2,
+          "date": "2026-11-03T09:10:00+07:00",
+          "approver": "Bùi Đức Mạnh",
+          "lines": [
+            {
+              "materialId": "NVL-002",
+              "quantity": 0.015
+            },
+            {
+              "materialId": "NVL-005",
+              "quantity": 0.1
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "MON-004",
+      "name": "BẠC XỈU CREAMY (Đá)",
+      "category": "Espresso",
+      "version": 2,
+      "note": "Định lượng cho một ly. Dữ liệu minh họa.",
+      "active": true,
+      "lines": [
+        {
+          "materialId": "NVL-002",
+          "quantity": 0.015
+        },
+        {
+          "materialId": "NVL-005",
+          "quantity": 0.1
+        }
+      ],
+      "history": [
+        {
+          "version": 2,
+          "date": "2026-11-03T09:10:00+07:00",
+          "approver": "Bùi Đức Mạnh",
+          "lines": [
+            {
+              "materialId": "NVL-002",
+              "quantity": 0.015
+            },
+            {
+              "materialId": "NVL-005",
+              "quantity": 0.1
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "MON-005",
+      "name": "BẠC XỈU COZY (Nóng)",
+      "category": "Espresso",
+      "version": 2,
+      "note": "Định lượng cho một ly. Dữ liệu minh họa.",
+      "active": true,
+      "lines": [
+        {
+          "materialId": "NVL-002",
+          "quantity": 0.015
+        },
+        {
+          "materialId": "NVL-005",
+          "quantity": 0.1
+        }
+      ],
+      "history": [
+        {
+          "version": 2,
+          "date": "2026-11-03T09:10:00+07:00",
+          "approver": "Bùi Đức Mạnh",
+          "lines": [
+            {
+              "materialId": "NVL-002",
+              "quantity": 0.015
+            },
+            {
+              "materialId": "NVL-005",
+              "quantity": 0.1
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "MON-006",
+      "name": "BẠC XỈU CREAMY",
+      "category": "Espresso",
+      "version": 2,
+      "note": "Định lượng cho một ly. Dữ liệu minh họa.",
+      "active": true,
+      "lines": [
+        {
+          "materialId": "NVL-002",
+          "quantity": 0.015
+        },
+        {
+          "materialId": "NVL-005",
+          "quantity": 0.1
+        }
+      ],
+      "history": [
+        {
+          "version": 2,
+          "date": "2026-11-03T09:10:00+07:00",
+          "approver": "Bùi Đức Mạnh",
+          "lines": [
+            {
+              "materialId": "NVL-002",
+              "quantity": 0.015
+            },
+            {
+              "materialId": "NVL-005",
+              "quantity": 0.1
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "MON-007",
+      "name": "ESPRESSO",
+      "category": "Espresso",
+      "version": 2,
+      "note": "Định lượng cho một ly. Dữ liệu minh họa.",
+      "active": true,
+      "lines": [
+        {
+          "materialId": "NVL-002",
+          "quantity": 0.015
+        },
+        {
+          "materialId": "NVL-005",
+          "quantity": 0.1
+        }
+      ],
+      "history": [
+        {
+          "version": 2,
+          "date": "2026-11-03T09:10:00+07:00",
+          "approver": "Bùi Đức Mạnh",
+          "lines": [
+            {
+              "materialId": "NVL-002",
+              "quantity": 0.015
+            },
+            {
+              "materialId": "NVL-005",
+              "quantity": 0.1
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "MON-008",
+      "name": "AMERICANO CAM",
+      "category": "Espresso",
+      "version": 2,
+      "note": "Định lượng cho một ly. Dữ liệu minh họa.",
+      "active": true,
+      "lines": [
+        {
+          "materialId": "NVL-002",
+          "quantity": 0.015
+        },
+        {
+          "materialId": "NVL-005",
+          "quantity": 0.1
+        }
+      ],
+      "history": [
+        {
+          "version": 2,
+          "date": "2026-11-03T09:10:00+07:00",
+          "approver": "Bùi Đức Mạnh",
+          "lines": [
+            {
+              "materialId": "NVL-002",
+              "quantity": 0.015
+            },
+            {
+              "materialId": "NVL-005",
+              "quantity": 0.1
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "MON-009",
+      "name": "HỒNG TRÀ TRÂN CHÂU ĐEN",
+      "category": "Trà sữa",
+      "version": 2,
+      "note": "Định lượng cho một ly. Dữ liệu minh họa.",
+      "active": true,
+      "lines": [
+        {
+          "materialId": "NVL-002",
+          "quantity": 0.015
+        },
+        {
+          "materialId": "NVL-005",
+          "quantity": 0.1
+        }
+      ],
+      "history": [
+        {
+          "version": 2,
+          "date": "2026-11-03T09:10:00+07:00",
+          "approver": "Bùi Đức Mạnh",
+          "lines": [
+            {
+              "materialId": "NVL-002",
+              "quantity": 0.015
+            },
+            {
+              "materialId": "NVL-005",
+              "quantity": 0.1
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "MON-010",
+      "name": "HỒNG TRÀ BƠ SỮA",
+      "category": "Trà sữa",
+      "version": 2,
+      "note": "Định lượng cho một ly. Dữ liệu minh họa.",
+      "active": true,
+      "lines": [
+        {
+          "materialId": "NVL-002",
+          "quantity": 0.015
+        },
+        {
+          "materialId": "NVL-005",
+          "quantity": 0.1
+        }
+      ],
+      "history": [
+        {
+          "version": 2,
+          "date": "2026-11-03T09:10:00+07:00",
+          "approver": "Bùi Đức Mạnh",
+          "lines": [
+            {
+              "materialId": "NVL-002",
+              "quantity": 0.015
+            },
+            {
+              "materialId": "NVL-005",
+              "quantity": 0.1
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "MON-011",
+      "name": "HỒNG TRÀ KHOAI TÍM",
+      "category": "Trà sữa",
+      "version": 2,
+      "note": "Định lượng cho một ly. Dữ liệu minh họa.",
+      "active": true,
+      "lines": [
+        {
+          "materialId": "NVL-002",
+          "quantity": 0.015
+        },
+        {
+          "materialId": "NVL-005",
+          "quantity": 0.1
+        }
+      ],
+      "history": [
+        {
+          "version": 2,
+          "date": "2026-11-03T09:10:00+07:00",
+          "approver": "Bùi Đức Mạnh",
+          "lines": [
+            {
+              "materialId": "NVL-002",
+              "quantity": 0.015
+            },
+            {
+              "materialId": "NVL-005",
+              "quantity": 0.1
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "MON-012",
+      "name": "HỒNG TRÀ CỐM DẺO",
+      "category": "Trà sữa",
+      "version": 2,
+      "note": "Định lượng cho một ly. Dữ liệu minh họa.",
+      "active": true,
+      "lines": [
+        {
+          "materialId": "NVL-002",
+          "quantity": 0.015
+        },
+        {
+          "materialId": "NVL-005",
+          "quantity": 0.1
+        }
+      ],
+      "history": [
+        {
+          "version": 2,
+          "date": "2026-11-03T09:10:00+07:00",
+          "approver": "Bùi Đức Mạnh",
+          "lines": [
+            {
+              "materialId": "NVL-002",
+              "quantity": 0.015
+            },
+            {
+              "materialId": "NVL-005",
+              "quantity": 0.1
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "movements": [
+    {
+      "id": "PNK-0009",
+      "branchId": "st",
+      "status": "pending",
+      "kind": "inbound",
+      "type": "internal",
+      "date": "2026-11-03T09:10:00+07:00",
+      "expectedDate": "2026-11-04",
+      "supplier": "Cà phê Tây Nguyên",
+      "creator": "Nguyễn Thị Hương",
+      "reason": "Bổ sung quầy",
+      "note": "Bổ sung nguyên liệu cho tuần đầu tháng 11.",
+      "lines": [
+        {
+          "materialId": "NVL-001",
+          "quantity": 25
+        },
+        {
+          "materialId": "NVL-002",
+          "quantity": 20
+        },
+        {
+          "materialId": "NVL-003",
+          "quantity": 5
+        }
+      ]
+    },
+    {
+      "id": "PNK-0008",
+      "branchId": "hc",
+      "status": "receiving",
+      "kind": "inbound",
+      "type": "internal",
+      "date": "2026-11-03T09:10:00+07:00",
+      "expectedDate": "2026-11-04",
+      "supplier": "Cà phê Tây Nguyên",
+      "creator": "Nguyễn Thị Hương",
+      "reason": "Bổ sung quầy",
+      "note": "Bổ sung nguyên liệu cho tuần đầu tháng 11.",
+      "lines": [
+        {
+          "materialId": "NVL-001",
+          "quantity": 25
+        },
+        {
+          "materialId": "NVL-002",
+          "quantity": 20
+        },
+        {
+          "materialId": "NVL-003",
+          "quantity": 5
+        }
+      ]
+    },
+    {
+      "id": "PNK-0007",
+      "branchId": "hc",
+      "status": "backorder",
+      "kind": "inbound",
+      "type": "internal",
+      "date": "2026-11-03T09:10:00+07:00",
+      "expectedDate": "2026-11-04",
+      "supplier": "Cà phê Tây Nguyên",
+      "creator": "Nguyễn Thị Hương",
+      "reason": "Bổ sung quầy",
+      "note": "Bổ sung nguyên liệu cho tuần đầu tháng 11.",
+      "lines": [
+        {
+          "materialId": "NVL-001",
+          "quantity": 25
+        },
+        {
+          "materialId": "NVL-002",
+          "quantity": 20
+        },
+        {
+          "materialId": "NVL-003",
+          "quantity": 5
+        }
+      ]
+    },
+    {
+      "id": "PNK-0006",
+      "branchId": "hc",
+      "status": "completed",
+      "kind": "inbound",
+      "type": "internal",
+      "date": "2026-11-03T09:10:00+07:00",
+      "expectedDate": "2026-11-04",
+      "supplier": "Cà phê Tây Nguyên",
+      "creator": "Nguyễn Thị Hương",
+      "reason": "Bổ sung quầy",
+      "note": "Bổ sung nguyên liệu cho tuần đầu tháng 11.",
+      "lines": [
+        {
+          "materialId": "NVL-001",
+          "quantity": 25
+        },
+        {
+          "materialId": "NVL-002",
+          "quantity": 20
+        },
+        {
+          "materialId": "NVL-003",
+          "quantity": 5
+        }
+      ]
+    },
+    {
+      "id": "PNK-0005",
+      "branchId": "st",
+      "status": "completed",
+      "kind": "inbound",
+      "type": "internal",
+      "date": "2026-11-03T09:10:00+07:00",
+      "expectedDate": "2026-11-04",
+      "supplier": "Cà phê Tây Nguyên",
+      "creator": "Nguyễn Thị Hương",
+      "reason": "Bổ sung quầy",
+      "note": "Bổ sung nguyên liệu cho tuần đầu tháng 11.",
+      "lines": [
+        {
+          "materialId": "NVL-001",
+          "quantity": 25
+        },
+        {
+          "materialId": "NVL-002",
+          "quantity": 20
+        },
+        {
+          "materialId": "NVL-003",
+          "quantity": 5
+        }
+      ]
+    },
+    {
+      "id": "PNK-0004",
+      "branchId": "hc",
+      "status": "pending",
+      "kind": "inbound",
+      "type": "internal",
+      "date": "2026-11-03T09:10:00+07:00",
+      "expectedDate": "2026-11-04",
+      "supplier": "Cà phê Tây Nguyên",
+      "creator": "Nguyễn Thị Hương",
+      "reason": "Bổ sung quầy",
+      "note": "Bổ sung nguyên liệu cho tuần đầu tháng 11.",
+      "lines": [
+        {
+          "materialId": "NVL-001",
+          "quantity": 25
+        },
+        {
+          "materialId": "NVL-002",
+          "quantity": 20
+        },
+        {
+          "materialId": "NVL-003",
+          "quantity": 5
+        }
+      ]
+    },
+    {
+      "id": "PXK-0013",
+      "branchId": "hc",
+      "status": "pending",
+      "kind": "outbound",
+      "type": "transfer",
+      "destinationId": "st",
+      "date": "2026-11-03T09:10:00+07:00",
+      "expectedDate": "2026-11-04",
+      "supplier": "Cà phê Tây Nguyên",
+      "creator": "Nguyễn Thị Hương",
+      "reason": "Bổ sung kho",
+      "note": "Bổ sung nguyên liệu cho tuần đầu tháng 11.",
+      "lines": [
+        {
+          "materialId": "NVL-001",
+          "quantity": 5
+        },
+        {
+          "materialId": "NVL-002",
+          "quantity": 4
+        },
+        {
+          "materialId": "NVL-003",
+          "quantity": 1
+        }
+      ]
+    },
+    {
+      "id": "PXK-0012",
+      "branchId": "hc",
+      "status": "ready",
+      "kind": "outbound",
+      "type": "internal",
+      "date": "2026-11-03T09:10:00+07:00",
+      "expectedDate": "2026-11-04",
+      "supplier": "Cà phê Tây Nguyên",
+      "creator": "Nguyễn Thị Hương",
+      "reason": "Bổ sung quầy",
+      "note": "Bổ sung nguyên liệu cho tuần đầu tháng 11.",
+      "lines": [
+        {
+          "materialId": "NVL-001",
+          "quantity": 5
+        },
+        {
+          "materialId": "NVL-002",
+          "quantity": 4
+        },
+        {
+          "materialId": "NVL-003",
+          "quantity": 1
+        }
+      ]
+    },
+    {
+      "id": "PXK-0011",
+      "branchId": "hc",
+      "status": "completed",
+      "kind": "outbound",
+      "type": "internal",
+      "date": "2026-11-03T09:10:00+07:00",
+      "expectedDate": "2026-11-04",
+      "supplier": "Cà phê Tây Nguyên",
+      "creator": "Nguyễn Thị Hương",
+      "reason": "Bổ sung quầy",
+      "note": "Bổ sung nguyên liệu cho tuần đầu tháng 11.",
+      "lines": [
+        {
+          "materialId": "NVL-001",
+          "quantity": 5
+        },
+        {
+          "materialId": "NVL-002",
+          "quantity": 4
+        },
+        {
+          "materialId": "NVL-003",
+          "quantity": 1
+        }
+      ]
+    }
+  ],
+  "stocks": [
+    {
+      "materialId": "NVL-001",
+      "branchId": "hc",
+      "quantity": 40,
+      "inbound": 15,
+      "outbound": 5,
+      "opening": 30
+    },
+    {
+      "materialId": "NVL-002",
+      "branchId": "hc",
+      "quantity": 32,
+      "inbound": 12,
+      "outbound": 4,
+      "opening": 24
+    },
+    {
+      "materialId": "NVL-003",
+      "branchId": "hc",
+      "quantity": 12,
+      "inbound": 3,
+      "outbound": 1,
+      "opening": 10
+    },
+    {
+      "materialId": "NVL-004",
+      "branchId": "hc",
+      "quantity": 18000,
+      "inbound": 10000,
+      "outbound": 16000,
+      "opening": 24000
+    },
+    {
+      "materialId": "NVL-005",
+      "branchId": "hc",
+      "quantity": 24,
+      "inbound": 0,
+      "outbound": 10,
+      "opening": 34
+    },
+    {
+      "materialId": "NVL-006",
+      "branchId": "hc",
+      "quantity": 0,
+      "inbound": 0,
+      "outbound": 0,
+      "opening": 0
+    },
+    {
+      "materialId": "NVL-001",
+      "branchId": "st",
+      "quantity": 8,
+      "inbound": 0,
+      "outbound": 7,
+      "opening": 15
+    },
+    {
+      "materialId": "NVL-002",
+      "branchId": "st",
+      "quantity": 32,
+      "inbound": 12,
+      "outbound": 4,
+      "opening": 24
+    },
+    {
+      "materialId": "NVL-004",
+      "branchId": "st",
+      "quantity": 24000,
+      "inbound": 10000,
+      "outbound": 16000,
+      "opening": 30000
+    },
+    {
+      "materialId": "NVL-005",
+      "branchId": "st",
+      "quantity": 24,
+      "inbound": 0,
+      "outbound": 10,
+      "opening": 34
+    },
+    {
+      "materialId": "NVL-002",
+      "branchId": "tk",
+      "quantity": 32,
+      "inbound": 12,
+      "outbound": 4,
+      "opening": 24
+    },
+    {
+      "materialId": "NVL-003",
+      "branchId": "tk",
+      "quantity": 12,
+      "inbound": 3,
+      "outbound": 1,
+      "opening": 10
+    },
+    {
+      "materialId": "NVL-005",
+      "branchId": "tk",
+      "quantity": 24,
+      "inbound": 0,
+      "outbound": 10,
+      "opening": 34
+    }
+  ],
+  "proposals": [
+    {
+      "id": "CT-0012",
+      "kind": "recipe",
+      "branchId": "hc",
+      "date": "2026-11-03T09:10:00+07:00",
+      "creator": "Nguyễn Thị Hương",
+      "reason": "Tăng lượng Robusta cho vị cà phê đậm hơn theo phản hồi khách hàng.",
+      "status": "pending",
+      "targetId": "MON-001",
+      "operation": "update",
+      "beforeRecipe": {
+        "id": "MON-001",
+        "name": "CÀ PHÊ SỮA MÁY",
+        "category": "Espresso",
+        "version": 2,
+        "note": "Hòa tan sữa đặc trước khi thêm đá.",
+        "active": true,
+        "lines": [
+          {
+            "materialId": "NVL-002",
+            "quantity": 0.02
+          },
+          {
+            "materialId": "NVL-005",
+            "quantity": 0.05
+          }
+        ],
+        "history": [
+          {
+            "version": 1,
+            "date": "2026-09-01T09:00:00+07:00",
+            "approver": "Bùi Đức Mạnh",
+            "note": "Công thức khởi tạo",
+            "lines": [
+              {
+                "materialId": "NVL-002",
+                "quantity": 0.015
+              },
+              {
+                "materialId": "NVL-005",
+                "quantity": 0.05
+              }
+            ]
+          },
+          {
+            "version": 2,
+            "date": "2026-10-20T10:15:00+07:00",
+            "approver": "Bùi Đức Mạnh",
+            "note": "Chuẩn hóa Robusta 0,020 kg",
+            "lines": [
+              {
+                "materialId": "NVL-002",
+                "quantity": 0.02
+              },
+              {
+                "materialId": "NVL-005",
+                "quantity": 0.05
+              }
+            ]
+          }
+        ],
+        "size": "M · 350 ml"
+      },
+      "recipe": {
+        "id": "MON-001",
+        "name": "CÀ PHÊ SỮA MÁY",
+        "category": "Espresso",
+        "version": 2,
+        "note": "Tăng độ đậm, giữ 25–30 giây",
+        "active": true,
+        "lines": [
+          {
+            "materialId": "NVL-002",
+            "quantity": 0.025
+          },
+          {
+            "materialId": "NVL-005",
+            "quantity": 0.05
+          }
+        ],
+        "history": [
+          {
+            "version": 1,
+            "date": "2026-09-01T09:00:00+07:00",
+            "approver": "Bùi Đức Mạnh",
+            "note": "Công thức khởi tạo",
+            "lines": [
+              {
+                "materialId": "NVL-002",
+                "quantity": 0.015
+              },
+              {
+                "materialId": "NVL-005",
+                "quantity": 0.05
+              }
+            ]
+          },
+          {
+            "version": 2,
+            "date": "2026-10-20T10:15:00+07:00",
+            "approver": "Bùi Đức Mạnh",
+            "note": "Chuẩn hóa Robusta 0,020 kg",
+            "lines": [
+              {
+                "materialId": "NVL-002",
+                "quantity": 0.02
+              },
+              {
+                "materialId": "NVL-005",
+                "quantity": 0.05
+              }
+            ]
+          }
+        ],
+        "size": "M · 350 ml"
+      }
+    },
+    {
+      "id": "NVL-DC-0015",
+      "kind": "material",
+      "branchId": "hc",
+      "date": "2026-11-03T09:10:00+07:00",
+      "creator": "Nguyễn Thị Hương",
+      "reason": "Tăng định mức dự trữ Arabica từ 20 lên 25 kg để phù hợp nhu cầu bán hàng đầu tháng.",
+      "status": "pending",
+      "targetId": "NVL-001",
+      "operation": "update",
+      "beforeMaterial": {
+        "id": "NVL-001",
+        "description": "Hạt rang vừa, bảo quản kín, tránh ẩm.",
+        "name": "Cà phê hạt Arabica",
+        "unit": "kg",
+        "minimum": 20,
+        "allowance": 0.8,
+        "supplier": "Cà phê Tây Nguyên",
+        "price": 280000,
+        "active": true
+      },
+      "material": {
+        "id": "NVL-001",
+        "description": "Hạt rang vừa, bảo quản kín, tránh ẩm.",
+        "name": "Cà phê hạt Arabica",
+        "unit": "kg",
+        "minimum": 25,
+        "allowance": 0.8,
+        "supplier": "Cà phê Tây Nguyên",
+        "price": 280000,
+        "active": true
+      }
+    },
+    {
+      "id": "DC-0024",
+      "kind": "adjustment",
+      "branchId": "hc",
+      "date": "2026-11-03T09:10:00+07:00",
+      "creator": "Nguyễn Thị Hương",
+      "reason": "Đối chiếu chênh lệch kiểm kê",
+      "status": "pending",
+      "targetId": "PKK-0006",
+      "operation": "update",
+      "adjustments": [
+        {
+          "materialId": "NVL-001",
+          "delta": -0.5
+        }
+      ]
+    },
+    {
+      "id": "PD-PNK-0009",
+      "kind": "movement",
+      "branchId": "st",
+      "date": "2026-11-03T09:10:00+07:00",
+      "creator": "Nguyễn Thị Hương",
+      "reason": "Bổ sung nguyên liệu cho tuần đầu tháng 11.",
+      "status": "pending",
+      "targetId": "PNK-0009",
+      "operation": "create"
+    },
+    {
+      "id": "PD-PNK-0004",
+      "kind": "movement",
+      "branchId": "hc",
+      "date": "2026-11-03T09:10:00+07:00",
+      "creator": "Nguyễn Thị Hương",
+      "reason": "Bổ sung nguyên liệu cho tuần đầu tháng 11.",
+      "status": "pending",
+      "targetId": "PNK-0004",
+      "operation": "create"
+    },
+    {
+      "id": "PD-PXK-0013",
+      "kind": "movement",
+      "branchId": "hc",
+      "date": "2026-11-03T09:10:00+07:00",
+      "creator": "Nguyễn Thị Hương",
+      "reason": "Bổ sung nguyên liệu cho tuần đầu tháng 11.",
+      "status": "pending",
+      "targetId": "PXK-0013",
+      "operation": "create"
+    }
+  ],
+  "counts": [
+    {
+      "id": "PKK-0006",
+      "branchId": "hc",
+      "date": "2026-11-02T20:30:00+07:00",
+      "period": "2026-11",
+      "creator": "Nguyễn Minh Anh",
+      "note": "Kiểm kê cuối ca",
+      "reason": "Hao hụt khi bảo quản và lấy nguyên liệu.",
+      "remedy": "Kiểm tra hộp kín, đề xuất điều chỉnh.",
+      "lines": [
+        {
+          "materialId": "NVL-001",
+          "theoretical": 40,
+          "actual": 39.5
+        },
+        {
+          "materialId": "NVL-002",
+          "theoretical": 32,
+          "actual": 32
+        },
+        {
+          "materialId": "NVL-003",
+          "theoretical": 12,
+          "actual": 12
+        }
+      ]
+    },
+    {
+      "id": "PKK-001",
+      "branchId": "hc",
+      "date": "2026-10-31T20:30:00+07:00",
+      "period": "2026-10",
+      "salesVersion": "BH-hc",
+      "creator": "Nguyễn Minh Anh",
+      "note": "Kiểm kê cuối kỳ",
+      "reason": "Đối soát cuối kỳ",
+      "remedy": "Kiểm tra bảo quản",
+      "lines": [
+        {
+          "materialId": "NVL-001",
+          "theoretical": 40,
+          "actual": 39.5
+        },
+        {
+          "materialId": "NVL-002",
+          "theoretical": 32,
+          "actual": 30
+        }
+      ]
+    },
+    {
+      "id": "PKK-002",
+      "branchId": "st",
+      "date": "2026-10-31T20:30:00+07:00",
+      "period": "2026-10",
+      "salesVersion": "BH-st",
+      "creator": "Nguyễn Minh Anh",
+      "note": "Kiểm kê cuối kỳ",
+      "reason": "Đối soát cuối kỳ",
+      "remedy": "Kiểm tra bảo quản",
+      "lines": [
+        {
+          "materialId": "NVL-004",
+          "theoretical": 24000,
+          "actual": 22000
+        }
+      ]
+    },
+    {
+      "id": "PKK-003",
+      "branchId": "tk",
+      "date": "2026-10-31T20:30:00+07:00",
+      "period": "2026-10",
+      "salesVersion": "BH-tk",
+      "creator": "Nguyễn Minh Anh",
+      "note": "Kiểm kê cuối kỳ",
+      "reason": "Đối soát cuối kỳ",
+      "remedy": "Kiểm tra bảo quản",
+      "lines": [
+        {
+          "materialId": "NVL-003",
+          "theoretical": 12,
+          "actual": 11.8
+        }
+      ]
+    }
+  ],
+  "sales": [
+    {
+      "id": "BH-hc",
+      "branchId": "hc",
+      "period": "2026-10",
+      "filename": "ban-hang-thang-10.xlsx",
+      "date": "2026-11-03T09:10:00+07:00",
+      "lines": [
+        {
+          "recipeId": "MON-001",
+          "quantity": 100
+        }
+      ],
+      "consumption": [
+        {
+          "materialId": "NVL-002",
+          "quantity": 1.5
+        },
+        {
+          "materialId": "NVL-005",
+          "quantity": 10
+        }
+      ]
+    },
+    {
+      "id": "BH-st",
+      "branchId": "st",
+      "period": "2026-10",
+      "filename": "ban-hang-thang-10.xlsx",
+      "date": "2026-11-03T09:10:00+07:00",
+      "lines": [
+        {
+          "recipeId": "MON-001",
+          "quantity": 100
+        }
+      ],
+      "consumption": [
+        {
+          "materialId": "NVL-002",
+          "quantity": 1.5
+        },
+        {
+          "materialId": "NVL-005",
+          "quantity": 10
+        }
+      ]
+    },
+    {
+      "id": "BH-tk",
+      "branchId": "tk",
+      "period": "2026-10",
+      "filename": "ban-hang-thang-10.xlsx",
+      "date": "2026-11-03T09:10:00+07:00",
+      "lines": [
+        {
+          "recipeId": "MON-001",
+          "quantity": 100
+        }
+      ],
+      "consumption": [
+        {
+          "materialId": "NVL-002",
+          "quantity": 1.5
+        },
+        {
+          "materialId": "NVL-005",
+          "quantity": 10
+        }
+      ]
+    }
+  ],
+  "audit": [],
+  "stockSnapshots": [
+    {
+      "date": "2026-11-03T09:10:00+07:00",
+      "stocks": [
+        {
+          "materialId": "NVL-001",
+          "branchId": "hc",
+          "quantity": 40,
+          "inbound": 15,
+          "outbound": 5,
+          "opening": 30
+        },
+        {
+          "materialId": "NVL-002",
+          "branchId": "hc",
+          "quantity": 32,
+          "inbound": 12,
+          "outbound": 4,
+          "opening": 24
+        },
+        {
+          "materialId": "NVL-003",
+          "branchId": "hc",
+          "quantity": 12,
+          "inbound": 3,
+          "outbound": 1,
+          "opening": 10
+        },
+        {
+          "materialId": "NVL-004",
+          "branchId": "hc",
+          "quantity": 18000,
+          "inbound": 10000,
+          "outbound": 16000,
+          "opening": 24000
+        },
+        {
+          "materialId": "NVL-005",
+          "branchId": "hc",
+          "quantity": 24,
+          "inbound": 0,
+          "outbound": 10,
+          "opening": 34
+        },
+        {
+          "materialId": "NVL-006",
+          "branchId": "hc",
+          "quantity": 0,
+          "inbound": 0,
+          "outbound": 0,
+          "opening": 0
+        },
+        {
+          "materialId": "NVL-001",
+          "branchId": "st",
+          "quantity": 8,
+          "inbound": 0,
+          "outbound": 7,
+          "opening": 15
+        },
+        {
+          "materialId": "NVL-002",
+          "branchId": "st",
+          "quantity": 32,
+          "inbound": 12,
+          "outbound": 4,
+          "opening": 24
+        },
+        {
+          "materialId": "NVL-004",
+          "branchId": "st",
+          "quantity": 24000,
+          "inbound": 10000,
+          "outbound": 16000,
+          "opening": 30000
+        },
+        {
+          "materialId": "NVL-005",
+          "branchId": "st",
+          "quantity": 24,
+          "inbound": 0,
+          "outbound": 10,
+          "opening": 34
+        },
+        {
+          "materialId": "NVL-002",
+          "branchId": "tk",
+          "quantity": 32,
+          "inbound": 12,
+          "outbound": 4,
+          "opening": 24
+        },
+        {
+          "materialId": "NVL-003",
+          "branchId": "tk",
+          "quantity": 12,
+          "inbound": 3,
+          "outbound": 1,
+          "opening": 10
+        },
+        {
+          "materialId": "NVL-005",
+          "branchId": "tk",
+          "quantity": 24,
+          "inbound": 0,
+          "outbound": 10,
+          "opening": 34
+        }
+      ]
+    }
+  ]
+}
